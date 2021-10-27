@@ -37,7 +37,8 @@ function init() {
     
   present.addEventListener("click", function(e){
     present.classList.toggle("open");
-    document.getElementById('card').classList.add('card-show');
+    document.getElementById('card').classList.toggle('card-show');
+    document.querySelector('.img-cake').classList.toggle('show');
   }, false);
   
   
