@@ -33,6 +33,6 @@
 
 @media (max-width: 769px){
     .img-cake{
-        top: 70%;
+        display: none;
     }
 }
